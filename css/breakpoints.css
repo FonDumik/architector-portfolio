@@ -24,14 +24,14 @@
   }
 }
 @media (max-width: 490px) {
-  .container {
+  /* .container {
     min-width: 490px;
     width: 100%;
   }
   section {
     min-width: 490px;
     width: 100%;
-  }
+  } */
   .main_title {
     font-size: 24px;
   }
