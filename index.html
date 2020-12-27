@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7, maximum-scale=0.7, user-scalable=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="Portfolio of Daniil Tselischev - Architect, Designer, 3D-Artist">
     <meta name="keywords" content="architecture, design, 3d artist, visualization, portfolio">
@@ -31,19 +31,6 @@
     <link href="./css/reset.css"  rel="stylesheet"/>
   </head>
   <body>
-    <script>
-      $(function() {
-        if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
-          var viewportmeta = document.querySelector('meta[name="viewport"]');
-          if (viewportmeta) {
-            viewportmeta.content = 'width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0';
-            document.body.addEventListener('gesturestart', function () {
-              viewportmeta.content = 'width=device-width, minimum-scale=0.25, maximum-scale=1.6';
-            }, false);
-          }
-        }
-      })
-    </script>
     <header class="header" id="home">
       <nav class="navigation animate__animated animate__fadeInUp">
         <ul class="menu">
