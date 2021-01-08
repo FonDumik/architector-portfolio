@@ -186,7 +186,7 @@ progress::-moz-progress-bar {
 }
 
 .progress {
-  background: rgba(211, 174, 174, 0.384);
+  background: rgba(214, 213, 213, 0.205);
   justify-content: flex-start;
   border-radius: 100px;
   align-items: center;
