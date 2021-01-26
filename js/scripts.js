@@ -1,6 +1,7 @@
 $(document).ready(function () {
+  "use strict";
   $("a[href*=#]").bind("click", function (e) {
-    var anchor = $(this);
+    let anchor = $(this);
     $("html, body")
       .stop()
       .animate(
@@ -11,7 +12,6 @@ $(document).ready(function () {
       );
     e.preventDefault();
   });
+
   return false;
 });
-
-// console.info($(".test").val(""));
