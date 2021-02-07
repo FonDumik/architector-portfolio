@@ -285,9 +285,12 @@ progress::-moz-progress-bar {
   grid-row: 2;
 }
 .item3,
-.item7,
-.item8 {
+.item7 {
   grid-row: span 2;
+}
+
+.item12 {
+  grid-column: span 3;
 }
 
 .footer {
