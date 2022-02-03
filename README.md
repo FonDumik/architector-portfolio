@@ -1,3 +1,6 @@
-# fondumik.github.io
+# architector-portfolio
 
-Ссылка на проект: https://fondumik.github.io/ 
+Первая версия портфолио.
+
+Новая версия: https://github.com/FonDumik/daniil-cgi-artist.github.io
+Доступна по ссылке: https://daniil-cgi-artist.github.io/
